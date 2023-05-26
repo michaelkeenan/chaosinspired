@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="page__info">
+        <h1 class="page__title">{{ page.title | escape }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- begin page -->
+<div class="container animate">
+
+  <article class="page">
+    <div class="page__content">
+      {{ page.description }}
+    </div>
+  </article>
+
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="section__head" style="float: right">
+          <div class="portfolio__view">
+            <div class="portfolio__toggle">
+              <div class="icon">
+                <div class="icon-bar"></div>
+                <div class="icon-bar"></div>
+                <div class="icon-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio__gallery animate">
+    <div class="container">
+      <div class="row">
+        {% for image in page.images %}
+        <div class="col col-4 col-d-6 col-t-12">
+          <div class="portfolio__item">
+            <a href="{{ '/images/gallery/' | relative_url}}{{image}}" class="portfolio__link glightbox" data-glightbox='title: {{page.title}} {{forloop.index}}; description: {{page.description}}; descPosition: bottom;'>
+              <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
+              <img data-src="{{ '/images/gallery/' | relative_url}}{{image}}" class="portfolio__image lazy" alt="{{page.title}} {{forloop.index}}">
+            </a>
+           </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- end page -->
