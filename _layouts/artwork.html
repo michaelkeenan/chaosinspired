@@ -146,9 +146,9 @@ layout: default
         {% for image in page.images %}
         <div class="col col-4 col-d-6 col-t-12">
           <div class="portfolio__item">
-            <a href="{{ '/images/gallery/' | relative_url}}{{image}}" class="portfolio__link glightbox" data-glightbox='title: {{page.title}} {{forloop.index}}; description: {{page.description}}; descPosition: bottom;'>
+            <a href="{{ '/images/artworks/' | relative_url}}{{image}}" class="portfolio__link glightbox" data-glightbox='title: {{page.title}} {{forloop.index}}; description: {{page.description}}; descPosition: bottom;'>
               <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-              <img data-src="{{ '/images/gallery/' | relative_url}}{{image}}" class="portfolio__image lazy" alt="{{page.title}} {{forloop.index}}">
+              <img data-src="{{ '/images/artworks/' | relative_url}}{{image}}" class="portfolio__image lazy" alt="{{page.title}} {{forloop.index}}">
             </a>
            </div>
         </div>
