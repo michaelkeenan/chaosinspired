@@ -1,4 +1,5 @@
 ---
+status: draft
 layout: artwork
 title: My Mommy The Amazon
 description: Description of artwork here with <a href="https://unsplash.com/photos/8Od75hgzb9Y">link</a>

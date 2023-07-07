@@ -42,7 +42,9 @@
   <div class="portfolio__gallery animate">
     <div class="container">
       <div class="row">
-        {% for artwork in site.gallery %}
+        {% assign filtered_artworks = site.gallery | where_exp: "artwork", "artwork.status != 'draft'" %}
+
+        {% for artwork in filtered_artworks %}
         <div class="col col-4 col-d-6 col-t-12">
           <div class="portfolio__item">
             <a href="{{artwork.url | relative_url}}" class="portfolio__link">

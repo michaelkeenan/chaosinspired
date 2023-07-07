@@ -23,7 +23,8 @@ layout: default
           function removeDepthSelector() {
             // currently unused
             const depthSelector = document.querySelector('iframe').contentWindow.document.querySelector("select[name='Depth']");
-            depthSelector.parentElement.parentElement.style.display = 'none';
+            if (depthSelector)
+              depthSelector.parentElement.parentElement.style.display = 'none';
           };
         /*<![CDATA[*/
         (function () {
