@@ -12,8 +12,9 @@ description:
   The void is all that is nothing<br />
   And nothing that is anything.<br />
 shopify_id: 8405298053411
-front_image: mandala-void-front.jpg
+front_image: mandala-void.jpg
 images:
+- mandala-void.jpg
 - mandala-void-front.jpg
 - mandala-void-angle.jpg
 - mandala-void-bedroom.jpg

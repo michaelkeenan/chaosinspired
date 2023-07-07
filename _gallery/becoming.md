@@ -14,8 +14,9 @@ description:
   Gather wonderful things.<br />
   You are always becoming.<br />
 shopify_id: 8405340029219
-front_image: becoming-front.jpg
+front_image: becoming.jpg
 images:
+- becoming.jpg
 - becoming-front.jpg
 - becoming-angle.jpg
 - becoming-dresser.jpg
