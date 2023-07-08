@@ -28,6 +28,8 @@
   .subscribe__title {
     margin-bottom: 0;
     font-size: 32px;
+    z-index: 2;
+    position: relative;
   }
 
   @media only screen and (max-width: $desktop) {
