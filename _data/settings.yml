@@ -76,7 +76,7 @@ portfolio:
 #-------------------------------
 # Subscribe Settings
 mailchimp:
-  mailchimp__title: Join my mailing list for more chaos inspired art
+  mailchimp__title: Join my mailing list for more chaos inspired art.<br />New art every week.
   mailchimp__identifier: gmail.us13.list-manage.com/subscribe/post?u=fc18de01bfe5bf3e88ed3a59c&amp;id=0b4094bc78&amp;f_id=0070a9e2f0 # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
   mailchimp__button__text: Subscribe # Add your button text.
   mailchimp__bg__color: "#f2eef8" # To change the color of the figure, add a hexadecimal color code (HEX). For example - "#f2eef8" (You can generate any color here - https://htmlcolorcodes.com/).
